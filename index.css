@@ -1,0 +1,102 @@
+body { margin:0; }
+
+*{
+  margin: 0;
+  border: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgba(255, 0, 0, 0.408);
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+h3{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.redbackground {
+  background-color: rgba(255, 0, 0, 0.408);
+  color: white;
+  text-decoration: none;
+}
+.subheader {
+  display: inline;
+  text-align: start;
+  color: white;
+  text-decoration: none;
+}
+
+.subheader2 {
+  display: inline-block;
+  text-align: end;
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+.Redtitle {
+  margin-top: 25px;
+  display: inline-block;
+  color: rgba(255, 0, 0, 0.608);
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 2.5%;
+  width: 90%;
+  background-color:  rgba(255, 0, 0, 0.408); 
+  border: 2px solid rgba(218, 165, 32, 0.824);
+  color: white;
+  padding: 15px 32px;
+  text-align: start;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: rgba(218, 165, 32, 0.824); 
+  color: white;
+  
+}
+
+.confirmbutton {
+  margin-top: 10px;
+  margin-left: 60%;
+  width: 20%;
+  height: 10px;
+  background-color:  rgba(255, 0, 0, 0.408); 
+  border: 2px solid rgba(218, 165, 32, 0.824);
+  color: white;
+  padding: 12px 35px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.registerbackground {
+  margin-top: 10px;
+  margin-left: 2.5%;
+  width: 400px;
+  height: 250px;
+  background-color:  rgba(255, 0, 0, 0.408); 
+  border: 2px solid rgba(218, 165, 32, 0.824);
+  color: white;
+  padding: 5px 10px;
+  text-align: start;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
